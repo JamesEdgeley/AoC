@@ -3,7 +3,6 @@ _list=list(open("day4.txt").read().split('\n\n'))
 
 def firstpart():
     count=0
-    count=0
     for line in _list:
         if line.count(':') == 8 or line.count(':') == 7 and line.count('cid') != 1:
            count+=1
