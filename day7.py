@@ -15,9 +15,7 @@ def findchildren(colour):
         splitline=line.split(' bags contain ')
         if colour==splitline[0]:
             if splitline[1]=='no other bags.':
-                print(colour)
                 return count
-
             else:
                 children=splitline[1].split(', ')
                 for child in children:
