@@ -1,5 +1,4 @@
 _list=list(open("day8.txt").read().splitlines())
-
 def firstpart():
     acc=0
     i=0
