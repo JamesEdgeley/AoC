@@ -18,5 +18,7 @@ def secondpart():
         for j in range(i+1,len(data)):
             if sum(data[i:j+1])==target:
                 return max(data[i:j+1])+min(data[i:j+1])
+            if sum(data[i:j+1])>target:
+                break
 
 print(secondpart())
