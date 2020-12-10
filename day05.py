@@ -1,4 +1,4 @@
-_dict=open("day5.txt").read()
+_dict=open("day05.txt").read()
 
 def firstpart():
     code='FBLR'

@@ -1,4 +1,4 @@
-_list=list(open("day2.txt").read().splitlines())
+_list=list(open("day02.txt").read().splitlines())
 
 def firstpart():
     validcount=0

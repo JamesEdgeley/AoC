@@ -1,4 +1,4 @@
-_list=list(open("day7.txt").read().splitlines())
+_list=list(open("day07.txt").read().splitlines())
 
 def findparents(parents,colour):
     for line in _list:

@@ -1,4 +1,4 @@
-_list=list(open("day9.txt").read().splitlines())
+_list=list(open("day09.txt").read().splitlines())
 data=[int(i) for i in _list]
 
 def firstpart():

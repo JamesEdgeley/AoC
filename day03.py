@@ -1,4 +1,4 @@
-_list=list(open("day3.txt").read().splitlines())
+_list=list(open("day03.txt").read().splitlines())
 
 def firstpart(right, down):
     treecount=0

@@ -1,5 +1,5 @@
 import re
-_list=list(open("day4.txt").read().split('\n\n'))
+_list=list(open("day04.txt").read().split('\n\n'))
 
 def firstpart():
     count=0

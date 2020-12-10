@@ -1,4 +1,4 @@
-_list=list(open("day6.txt").read().split('\n\n'))
+_list=list(open("day06.txt").read().split('\n\n'))
 
 def firstpart():
     count=0
