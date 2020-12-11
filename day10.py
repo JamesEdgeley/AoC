@@ -1,3 +1,4 @@
+from time import perf_counter
 _list=list(map(int,open("day10.txt").read().splitlines()))
 _list.sort()
 _list.insert(0,0)
