@@ -1,4 +1,3 @@
-from time import perf_counter
 _list=list(open("day11.txt").read().splitlines())
 
 grid1=[]
