@@ -1,4 +1,3 @@
-
 import itertools
 _list=list(open("day17.txt").read().splitlines())
 
